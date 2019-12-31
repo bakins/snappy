@@ -5,6 +5,7 @@ jobs:
       - image: golang:1.13.5-alpine
         environment:
           GOFLAGS: -mod=vendor
+          CGO_ENABLED: "0"
     steps:
       - checkout
       - run: go test -v ./...
