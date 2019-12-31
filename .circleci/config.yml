@@ -14,3 +14,9 @@ jobs:
     steps:
       - checkout
       - run: golangci-lint run ./...
+workflows:
+  version: 2
+  tests:
+    jobs:
+      - test
+      - lint
