@@ -4,6 +4,7 @@
 [![Documentation](https://godoc.org/github.com/bakins/snappy?status.svg)](http://godoc.org/github.com/bakins/snappy)
 [![license](https://img.shields.io/github/license/bakins/snappy?maxAge=2592000)](hhttps://github.com/bakins/snappy/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/bakins/snappy)](https://goreportcard.com/report/github.com/bakins/snappy)
+[![CircleCI](https://circleci.com/gh/bakins/snappy.svg?style=svg)](https://circleci.com/gh/bakins/snappy)
 
 Add [snappy stream compression](https://godoc.org/github.com/golang/snappy) to Go HTTP clients and Servers.
 
